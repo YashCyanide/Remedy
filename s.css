@@ -1,0 +1,273 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #3085C3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
+    size: 75%;
+    border-radius: 10%;
+    transition: transform 0.3s ease; /* Add a subtle transform animation on hover */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar i {
+    margin-left: 10px;
+    color: #3085C3;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-button button,
+.login-button button {
+    background-color: #3085C3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease; /* Add smooth background color transition on hover */
+}
+
+.cart-button button:hover,
+.login-button button:hover {
+    background-color: #007bff; /* Change background color on hover */
+}
+
+/* Carousel styles */
+.carousel-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    flex: 1;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    45% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    95% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-400%);
+    }
+}
+
+/* Offer Section styles */
+.offer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #5CD2E6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.offer-card {
+    text-align: center;
+}
+
+.offer-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Add transform animation on hover */
+}
+
+.offer-card:hover img {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
+/* Personal Section styles */
+.personal-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.personal-section h2 {
+    color: #333;
+}
+
+.personal-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.personal-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #3085C3;
+    transition: transform 0.3s ease; /* Add transform animation on hover */
+}
+
+.personal-card:hover img {
+    transform: scale(1.1); /* Increase size on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
+
+/* Product Section styles */
+.product-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-section h2 {
+    color: #333;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-card {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Add transform animation on hover */
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
+.rating {
+    font-size: 24px;
+    color: #ff9900;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #3085C3;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease; /* Add smooth color transition on hover */
+}
+
+.footer-links a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Social links styles */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
