@@ -7,6 +7,17 @@
     <title>Pharmacy Website</title>
 </head>
 <body>
+    <header style="position: sticky;top:0; z-index: 10; width: 100%;">
+    <!--stripe added-->
+        <div style="background-color: #296e9f; height:32px">
+        <div style="display: flex; padding: 5px; justify-content: space-around; width: 30%; margin-left: auto; margin-right: auto; color: white; font-size: medium;">
+            <div>Contact us  </div>
+            <div> | </div>
+            <div>Address  </div>
+            <div> | </div>
+            <div>Emergency Number</div>
+        </div>
+        </div>
    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
@@ -23,6 +34,7 @@
             <button>Login</button>
         </div>
     </nav>
+</header>
     <!-- Carousel Section -->
     <section class="carousel-section">
         <div class="carousel-container">
@@ -109,39 +121,24 @@
                 <div class="rating">★★★★☆</div>
             </div>
             <!-- Add more product cards as needed -->
-        </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    </section>
-    <footer class="footer">
-        <div class="waves">
-          <div class="wave" id="wave1"></div>
-          <div class="wave" id="wave2"></div>
-          <div class="wave" id="wave3"></div>
-          <div class="wave" id="wave4"></div>
         </div>
-        <ul class="social-icon">
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a></li>
-        </ul>
-        <ul class="menu">
-          <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Products</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Facebook</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Twitter</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Instagram</a></li>
-    
-        </ul>
-        <p>&copy;2023 Remedy Website | All Rights Reserved</p>
-      </footer>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- Add more footer links as needed -->
+            </ul>
+        </div>
+        <div class="social-links">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
 </body>
 </html>
