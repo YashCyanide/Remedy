@@ -14,6 +14,10 @@ body, html {
     align-items: center;
     padding: 10px 15px;
 }
+.login-button button a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .logo img {
     max-width: 100px;
