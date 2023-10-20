@@ -58,19 +58,19 @@ body, html {
 
 .cart-button button,
 .login-button button {
-    background-color: #3085C3;
+    background-color: #f1f3f4;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
-    color: white;
+    color: rgb(24, 22, 22);
     transition: background-color 0.3s ease; /* Add smooth background color transition on hover */
 }
 
 .cart-button button:hover,
 .login-button button:hover {
-    background-color: #007bff; /* Change background color on hover */
+    background-color: #87b5e7; /* Change background color on hover */
 }
 
 /* Carousel styles */
